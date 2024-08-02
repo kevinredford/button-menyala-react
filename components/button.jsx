@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Container, Button } from "./button-style";
 
-export default function ButtonLamp() {
+function ButtonLamp() {
   const [isOn, setIsOn] = useState(false);
 
   const handleToggle = () => {
@@ -16,3 +16,5 @@ export default function ButtonLamp() {
     </Container>
   );
 }
+
+export default ButtonLamp;
