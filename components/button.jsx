@@ -11,7 +11,7 @@ function ButtonLamp() {
   return (
     <Container isOn={isOn}>
       <Button isOn={isOn} onClick={handleToggle}>
-        {isOn ? "Hitamkan" : "Nyalakan"}
+        {isOn ? "Hitamkan" : "Nyalakan DIIA"}
       </Button>
     </Container>
   );
